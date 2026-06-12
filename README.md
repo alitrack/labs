@@ -2,14 +2,14 @@
 
 Experiments, benchmarks, and learning scripts.
 
-一个干净的地方放各种测试、学习代码和 benchmark。不定期更新。
+一个干净的地方放各种测试、学习代码和 benchmark。
 
-## 目录
+## Benchmarks
 
-```
-benchmarks/
-├── mac-embedding/     # Mac ARM 向量嵌入方案实测对比
-```
+| 目录 | 内容 | 机器 | 日期 |
+|:----|:----|:----:|:----:|
+| `benchmarks/mac-embedding/` | 5 种向量嵌入方案吞吐量对比 | M3 Ultra 256GB | 2026-06 |
+| `benchmarks/qwen-ollama-deploy/` | Ollama Qwen3.6-27b 调优 + 参数扫描 | M3 Ultra 256GB | 2026-06 |
 
 ## 原则
 
