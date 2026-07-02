@@ -8,7 +8,7 @@ macOS M3 Ultra 256GB | mlx-vlm 0.6.3 | 4-bit quantization
 
 ```bash
 # Prerequisites: macOS with mlx-vlm, Ollama (bge-m3 installed)
-pip install mlx-vlm turbovec python-Levenshtein
+uv pip install mlx-vlm turbovec python-Levenshtein
 
 # 1. Generate test images
 python3 generate_images.py
